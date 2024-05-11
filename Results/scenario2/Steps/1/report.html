@@ -1,0 +1,43 @@
+
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>VRT Report</title>
+        <link rel="stylesheet" href="../../../../vrtReport.css" />
+    </head>
+    <body>
+        <header>
+        <h1>scenario2 - Step 1 Report</h1>
+        </header>
+        <main>
+        <div class="main-layout">
+            <div class="comparison-info">
+            <h2>Comparison Information</h2>
+            <ul>
+                <li>Same Dimensions: true <span id="sameDimensions"></span></li>
+                <li>MisMatch Percentage: 0.01 <span id="misMatchPercentage"></span></li>
+                <li>Analysis Time: 84 <span id="analysisTime"></span> ms</li>
+            </ul>
+            </div>
+
+            <div class="report-visualizer">
+            <div class="image-container">
+                <div class="image">
+                <img src="./before.png" alt="Before" />
+                <h2>v3.42</h2>
+                </div>
+                <div class="image">
+                <img src="./after.png" alt="After" />
+                <h2>v5.14.1</h2>
+                </div>
+            </div>
+            <div class="final-image-container">
+                <img src="./compared.png" alt="Final" />
+                <h2>Overlap</h2>
+            </div>
+            </div>
+        </div>
+        </main>
+    </body>
+    </html>

@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.final-image-container {
+  text-align: center;
+}
+
+.final-image-container h2 {
+  margin-bottom: 10px;
+}
+
+.final-image-container img {
+  max-width: 85%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.image h2 {
+  margin-top: 0;
+}
+
+.report-visualizer {
+  width: 50%;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#visualizer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link-list-item {
+  margin: 2%;
+}
+
+.left-container {
+  width: 30%;
+}
+
+.comparison-info {
+  margin-top: 40px;
+}
+
+.comparison-info h2 {
+  margin-bottom: 15%;
+}
+
+.comparison-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comparison-info li {
+  margin-bottom: 10%;
+  font-size: 21px;
+}
+
+.comparison-info li span {
+  font-weight: bold;
+}
+
+.main-layout {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-list-container {
+  width: 50%;
+}
+
+.item-list-container ul {
+  width: 100%;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  margin: 10px;
+  width: 25vh;
+  height: 25vh;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.gallery-item a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 80%;
+  border-bottom: 1px solid #ccc;
+}
+
+.gallery-item h3 {
+  margin-left: 10%;
+  margin: 10px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Hover effect */
+.gallery-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
